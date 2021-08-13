@@ -1,0 +1,25 @@
+{
+  "name": "Blockchain-Telegram-Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbegaM/Blockchain-Telegram-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbegaM/Blockchain-Telegram-Bot/issues"
+  },
+  "homepage": "https://github.com/AbegaM/Blockchain-Telegram-Bot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "telegraf": "^4.4.1"
+  }
+}
